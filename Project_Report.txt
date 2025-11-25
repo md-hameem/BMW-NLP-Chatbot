@@ -1,0 +1,168 @@
+BMW CHATBOT PROJECT REPORT
+==========================
+
+1. PROJECT OVERVIEW
+The BMW Chatbot is a domain-specific conversational agent designed to assist users in exploring a dataset of BMW vehicles. It combines classical Information Retrieval (IR) techniques with Natural Language Processing (NLP) to understand user queries, filter data, and provide accurate responses regarding car specifications, pricing, and recommendations. The system is accessible via a modern web interface built with Streamlit.
+
+Key goals:
+- Provide fast, accurate answers about BMW cars using a structured dataset.
+- Support natural language queries, including vague or incomplete questions.
+- Offer recommendations based on user budget or preferences.
+- Analyze user reviews for sentiment and readability.
+- Prevent invalid or irrelevant input from confusing the system.
+
+2. PROJECT STRUCTURE
+The workspace is organized as follows:
+
+- app.py: The entry point for the Streamlit web application. Handles UI rendering and session state.
+- BMW_Chatbot.py: The core logic module containing the `BMWChatbot` class, NLP processing, and intent handling.
+- bmw.csv: The structured dataset containing vehicle information.
+- requirements.txt: List of Python dependencies.
+- chat_log.txt: A log file recording user-bot interactions for debugging and analysis.
+- QNA_Example.md: A collection of test queries to verify bot functionality.
+- ReadMe.md: User documentation and installation instructions.
+
+
+3. DATASET DETAILS
+------------------
+The system relies on `bmw.csv`, a structured dataset containing the following attributes for each vehicle:
+- model: The specific series or model name (e.g., "3 Series", "X5", "M4").
+- year: Manufacturing year (e.g., 2017, 2020).
+- price: Selling price in USD/GBP (numeric).
+- transmission: Type of transmission (Automatic, Manual, Semi-Auto).
+- mileage: Total distance driven (numeric).
+- fuelType: Engine fuel type (Diesel, Petrol, Hybrid, Electric, Other).
+- tax: Annual road tax (numeric).
+- mpg: Miles Per Gallon (fuel efficiency, numeric).
+- engineSize: Engine displacement in liters (numeric).
+
+*Preprocessing*:
+- On load, the system drops rows with missing critical values (model or year) to ensure data integrity.
+- All string fields are lowercased and stripped of extra whitespace for consistency.
+- The dataset can be easily extended: adding new rows or columns will not break the chatbot, as long as the required columns are present.
+
+*Example row*:
+| model     | year | price  | transmission | mileage | fuelType | tax | mpg  | engineSize |
+|-----------|------|--------|--------------|---------|----------|-----|------|------------|
+| 3 Series  | 2017 | 15000  | Automatic    | 40000   | Diesel   | 150 | 55.4 | 2.0        |
+
+
+4. ALGORITHMS & TECHNIQUES
+--------------------------
+
+A. Information Retrieval (The Core Engine)
+   The chatbot does not use generative AI (like GPT) to hallucinate answers. Instead, it uses a retrieval-based approach:
+   
+   1. Synthetic Document Creation: 
+      Each row in the CSV is converted into a "synthetic question" string (e.g., "2017 bmw 3 series diesel automatic 2.0 litre 40000 miles"). This creates a text representation of the structured data, making it possible to use text search techniques.
+   
+   2. TF-IDF Vectorization:
+      The system uses TfidfVectorizer (from Scikit-Learn) to convert these synthetic strings into numerical vectors. This highlights unique/rare words (like specific model codes) while downweighting common words. Example: "2017 bmw 3 series diesel" → [0.2, 0.1, 0.5, ...]
+   
+   3. Cosine Similarity:
+      When a user asks a question, it is also vectorized. The system calculates the Cosine Similarity between the user's query vector and every car's vector in the dataset. The highest scoring match is returned as the answer. This allows for fuzzy matching and handles typos or incomplete queries.
+
+B. Hybrid Search Optimization
+   To improve accuracy, the system employs a "Filter-then-Rank" strategy:
+   1. NLP Extraction: First, it extracts hard constraints (Year, Series, Fuel) from the user's query using regex and keyword matching.
+   2. Hard Filtering: The dataset is filtered using Pandas to include only rows matching these constraints. For example, if the user says "2017 diesel", only 2017 diesel cars are considered.
+   3. Soft Ranking: TF-IDF/Cosine Similarity is run ONLY on this filtered subset to find the specific car the user is describing. This makes the search both fast and accurate.
+
+C. Intent Classification
+   A rule-based classifier (`_classify_intent`) determines the type of action required:
+   - Keywords like "average", "cheapest" trigger Aggregate Logic (mean, min, max calculations).
+   - Keywords like "budget", "under", "recommend" trigger Recommendation Logic (budget filtering, best pick).
+   - Keywords like "analyze" trigger Sentiment Analysis (TextBlob, Textatistic).
+   - Default behavior is the TF-IDF Search described above.
+
+D. Error Handling & Robustness
+   - If the CSV is missing or corrupted, the system prints an error and exits gracefully.
+   - If a user query cannot be matched to any car, the bot returns a helpful message and suggests how to ask better questions.
+   - If a required NLP model (e.g., spaCy) is missing, the bot can be extended to fall back to basic tokenization.
+
+E. Extensibility
+   - The system is modular: new intents, filters, or data columns can be added with minimal code changes.
+   - The dataset can be swapped for another car brand or domain by updating the CSV and adjusting entity extraction patterns.
+
+
+5. NLP TECHNIQUES USED
+----------------------
+
+A. Tokenization & Cleaning
+   - `basic_clean`: Lowercasing and removing non-alphanumeric characters using Regex. Example: "BMW X5! 2020?" → "bmw x5 2020"
+   - `spacy`: Used for more advanced tokenization and Part-of-Speech (POS) tagging to identify nouns and extract entities.
+
+B. Entity Extraction
+   - Regular Expressions (Regex): Heavily used to extract:
+     - Years (e.g., "2017", "2020")
+     - Series (e.g., "3 Series", "X5", "M4")
+     - Prices/Budgets (e.g., "15k", "20000", "$15,000")
+   - Keyword Matching: Used for fuel types (Diesel, Petrol, Hybrid, Electric).
+   - Example: For the query "Best 2018 diesel under 20k", the system extracts year=2018, fuel=Diesel, budget=20000.
+
+C. Sentiment Analysis
+   - Library: `TextBlob`
+   - Function: Analyzes user reviews to return Polarity (-1 to +1) and Subjectivity (0 to 1).
+   - Example: "This BMW is great but expensive." → Polarity: 0.5, Subjectivity: 0.6
+
+D. Readability Analysis
+   - Library: `Textatistic`
+   - Function: Calculates Flesch Reading Ease and other readability metrics for text input.
+   - Example: "The BMW 3 Series is fast and comfortable." → Flesch score: 70.2
+
+
+6. KEY FEATURES IMPLEMENTED
+---------------------------
+
+A. Budget & Recommendations
+   - The bot parses budget constraints (e.g., "under 20k", "my budget is 15000") and filters the dataframe (`df['price'] <= budget`).
+   - It employs a heuristic to recommend the "best" car within that budget, prioritizing newer models with lower mileage and, if possible, matching the user's preferred series or fuel type.
+   - Example: For "Recommend a 3 Series under 18k", the bot filters for 3 Series, price <= 18000, sorts by year and mileage, and returns the top result.
+
+B. Aggregate Queries
+   - The bot performs real-time statistical analysis on the dataframe using Pandas.
+   - Examples:
+     - "Average price of 2019 X5" → calculates mean price for all 2019 X5 entries.
+     - "Cheapest 5 Series diesel" → finds the row with the minimum price among 5 Series diesels.
+     - "Most expensive BMW" → finds the row with the maximum price.
+
+C. Input Validation
+   - A dedicated validator (`_is_valid_input`) checks user input against a whitelist of domain keywords, question words, and known entities. This prevents the bot from trying to process gibberish or irrelevant text.
+   - Example: If the user enters "asdfghjkl" or "potato", the bot responds: "That doesn't look like a valid question. Please ask something about BMW cars (e.g., 'price of X5', 'best car under 20k')."
+
+D. Logging & Debugging
+   - All user-bot interactions are logged to `chat_log.txt` for later analysis.
+   - Debug mode can be toggled to show the top 3 TF-IDF matches and their scores for transparency.
+
+E. Error Handling
+   - If the dataset is missing or a required library is not installed, the bot provides a clear error message.
+   - If a query cannot be answered, the bot suggests how to rephrase the question.
+
+F. Extensibility
+   - New intents (e.g., "compare two cars", "show all hybrids") can be added by extending the intent classifier and adding new handler methods.
+   - The system is designed to be brand-agnostic: swapping in a new CSV for another car brand requires only minor changes to entity extraction patterns.
+
+
+7. USER INTERFACE (STREAMLIT)
+-----------------------------
+The interface is built using Streamlit, a Python framework for data apps.
+- **Session State**: Maintains the chat history (`st.session_state.messages`) so the conversation context is preserved during re-runs and page refreshes.
+- **Caching**: The chatbot instance and dataset loading are cached (`@st.cache_resource`) to ensure performance and prevent reloading the CSV on every interaction.
+- **Interactive Components**: Uses `st.chat_input` for user queries and `st.chat_message` to display the conversation flow in a chat-like format.
+- **Error Display**: If the dataset is missing or the bot fails to initialize, a clear error message is shown in the UI.
+- **Modern UX**: The UI is styled for clarity and ease of use, with a persistent chat history and spinner for bot responses.
+
+8. TESTING & VALIDATION
+-----------------------
+- **Manual Testing**: The `QNA_Example.md` file contains over 60 example queries covering all major features (car info, aggregates, recommendations, sentiment analysis, input validation).
+- **Edge Cases**: The bot is tested with incomplete, ambiguous, and invalid queries to ensure robust handling.
+- **Unit Testing**: The modular design allows for easy unit testing of core methods (e.g., entity extraction, intent classification, TF-IDF search).
+- **Performance**: The filter-then-rank approach ensures fast response times even with large datasets.
+
+9. POSSIBLE IMPROVEMENTS
+------------------------
+- **Multi-turn Context**: Track user preferences across multiple questions (e.g., "Show me more like that").
+- **Comparison Mode**: Allow users to compare two or more cars directly.
+- **Voice Input**: Integrate speech-to-text for hands-free queries.
+- **Admin Tools**: Add a simple admin UI to upload new datasets or view chat logs.
+- **Analytics**: Visualize popular queries, most recommended models, etc.

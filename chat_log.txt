@@ -1,0 +1,189 @@
+USER: help
+BOT: Here’s what I can do:
+- Car details: 'Tell me about 2017 3 Series diesel'
+- Average price: 'average price of 3 Series 2017'
+- Cheapest car: 'cheapest 5 Series diesel'
+- Most expensive car: 'most expensive 1 Series'
+- Text analysis: 'analyze: This BMW is very comfortable.'
+- Toggle debug: 'debug on' or 'debug off'
+- Type 'exit' to quit.
+----------------------------------------
+USER: quit
+BOT: Goodbye! Thanks for chatting with BMWBot.
+----------------------------------------
+USER: Can you tell me the readability of this review: "The 2018 BMW 3 Series is fast, has great comfort features, and performs well on highways.
+BOT: Here is the analysis of your text:
+
+- Sentiment polarity (−1=negative, +1=positive): 0.500
+- Subjectivity (0=objective, 1=subjective): 0.675
+
+Readability estimates:
+- flesch_score: 73.17
+----------------------------------------
+USER: What’s the safety rating of the 2021 BMW M4?
+BOT: This is a 2020 BMW  M4.
+- Price: $45990
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 3.0 L
+- Mileage: 6 miles
+- Tax: $145 per year
+- Fuel efficiency: 34.0 mpg
+
+[Match confidence: 0.73]
+TOP_MATCHES:
+  - 2020 bmw  M4 Petrol Semi-Auto 3.0 litre 7 miles (score=0.730)
+  - 2020 bmw  M4 Petrol Semi-Auto 3.0 litre 6 miles (score=0.730)
+  - 2020 bmw  M4 Petrol Semi-Auto 3.0 litre 5 miles (score=0.730)
+----------------------------------------
+USER: What’s the cheapest 2019 BMW 3 Series available?
+BOT: Here is the cheapest matching BMW:
+This is a 2019 BMW  3 Series.
+- Price: $16698
+- Transmission: Manual
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 12824 miles
+- Tax: $150 per year
+- Fuel efficiency: 67.3 mpg
+
+----------------------------------------
+USER: How much is a 2019 BMW X6 in the UK?
+BOT: This is a 2019 BMW  X6.
+- Price: $58480
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 3.0 L
+- Mileage: 2018 miles
+- Tax: $145 per year
+- Fuel efficiency: 26.4 mpg
+
+[Match confidence: 0.77]
+TOP_MATCHES:
+  - 2019 bmw  X6 Petrol Semi-Auto 3.0 litre 2018 miles (score=0.767)
+  - 2019 bmw  X6 Diesel Semi-Auto 3.0 litre 101 miles (score=0.670)
+  - 2019 bmw  X6 Diesel Semi-Auto 3.0 litre 1000 miles (score=0.663)
+----------------------------------------
+USER: quit
+BOT: Goodbye! Thanks for chatting with BMWBot.
+----------------------------------------
+USER: hi
+BOT: Hi! I'm BMWBot, your BMW car information assistant.
+Ask me about BMW models, years, fuel types, prices, and more.
+Example: 'Tell me about 2017 3 Series diesel.'
+----------------------------------------
+USER: bmw m5 price
+BOT: This is a 2019 BMW  M5.
+- Price: $68930
+- Transmission: Automatic
+- Fuel type: Petrol
+- Engine size: 4.4 L
+- Mileage: 123 miles
+- Tax: $145 per year
+- Fuel efficiency: 26.9 mpg
+
+[Match confidence: 0.73]
+TOP_MATCHES:
+  - 2019 bmw  M5 Petrol Automatic 4.4 litre 123 miles (score=0.727)
+  - 2019 bmw  M5 Petrol Automatic 4.4 litre 1501 miles (score=0.687)
+  - 2019 bmw  M5 Petrol Semi-Auto 4.4 litre 5000 miles (score=0.681)
+----------------------------------------
+USER: bmw m5 configuration
+BOT: This is a 2019 BMW  M5.
+- Price: $68930
+- Transmission: Automatic
+- Fuel type: Petrol
+- Engine size: 4.4 L
+- Mileage: 123 miles
+- Tax: $145 per year
+- Fuel efficiency: 26.9 mpg
+
+[Match confidence: 0.73]
+TOP_MATCHES:
+  - 2019 bmw  M5 Petrol Automatic 4.4 litre 123 miles (score=0.727)
+  - 2019 bmw  M5 Petrol Automatic 4.4 litre 1501 miles (score=0.687)
+  - 2019 bmw  M5 Petrol Semi-Auto 4.4 litre 5000 miles (score=0.681)
+----------------------------------------
+USER: what is the latest version bmw car
+BOT: This is a 2019 BMW  3 Series.
+- Price: $30495
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 8 miles
+- Tax: $145 per year
+- Fuel efficiency: 50.4 mpg
+
+[Match confidence: 0.25]
+TOP_MATCHES:
+  - 2019 bmw  3 Series Diesel Automatic 2.0 litre 8 miles (score=0.252)
+  - 2019 bmw  4 Series Diesel Semi-Auto 2.0 litre 9 miles (score=0.236)
+  - 2019 bmw  2 Series Diesel Semi-Auto 2.0 litre 9 miles (score=0.236)
+----------------------------------------
+USER: hi
+BOT: Hi! I'm BMWBot, your BMW car information assistant.
+Ask me about BMW models, years, fuel types, prices, and more.
+Example: 'Tell me about 2017 3 Series diesel.'
+----------------------------------------
+USER: what can you do
+BOT: Here’s what I can do:
+- Car details: 'Tell me about 2017 3 Series diesel'
+- Average price: 'average price of 3 Series 2017'
+- Cheapest car: 'cheapest 5 Series diesel'
+- Most expensive car: 'most expensive 1 Series'
+- Text analysis: 'analyze: This BMW is very comfortable.'
+- Toggle debug: 'debug on' or 'debug off'
+- Type 'exit' to quit.
+----------------------------------------
+USER: hi
+BOT: Hi! I'm BMWBot, your BMW car information assistant.
+Ask me about BMW models, years, fuel types, prices, and more.
+Example: 'Tell me about 2017 3 Series diesel.'
+----------------------------------------
+USER: tell me about 2017 bmw 3 series
+BOT: This is a 2017 BMW  3 Series.
+- Price: $24950
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 3.0 L
+- Mileage: 5000 miles
+- Tax: $150 per year
+- Fuel efficiency: 51.4 mpg
+
+[Match confidence: 0.43]
+TOP_MATCHES:
+  - 2017 bmw  3 Series Diesel Automatic 3.0 litre 5000 miles (score=0.433)
+  - 2017 bmw  3 Series Diesel Automatic 2.0 litre 30000 miles (score=0.383)
+  - 2017 bmw  3 Series Diesel Automatic 3.0 litre 30000 miles (score=0.383)
+----------------------------------------
+USER: hi
+BOT: Hi! I'm BMWBot, your BMW car information assistant.
+Ask me about BMW models, years, fuel types, prices, and more.
+Example: 'Tell me about 2017 3 Series diesel.'
+----------------------------------------
+USER: price of x5
+BOT: This is a 2019 BMW  X5.
+- Price: $73000
+- Transmission: Automatic
+- Fuel type: Hybrid
+- Engine size: 3.0 L
+- Mileage: 5 miles
+- Tax: $135 per year
+- Fuel efficiency: 188.3 mpg
+
+[Match confidence: 0.58]
+TOP_MATCHES:
+  - 2019 bmw  X5 Hybrid Automatic 3.0 litre 5 miles (score=0.584)
+  - 2019 bmw  X5 Diesel Automatic 3.0 litre 123 miles (score=0.539)
+  - 2019 bmw  X5 Diesel Automatic 3.0 litre 123 miles (score=0.539)
+----------------------------------------
+USER: hi
+BOT: Hi! I'm BMWBot, your BMW car information assistant.
+Ask me about BMW models, years, fuel types, prices, and more.
+Example: 'Tell me about 2017 3 Series diesel.'
+----------------------------------------
+USER: hi
+BOT: Hi! I'm BMWBot, your BMW car information assistant.
+Ask me about BMW models, years, fuel types, prices, and more.
+Example: 'Tell me about 2017 3 Series diesel.'
+----------------------------------------
