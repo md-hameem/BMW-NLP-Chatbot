@@ -187,3 +187,19 @@ BOT: Hi! I'm BMWBot, your BMW car information assistant.
 Ask me about BMW models, years, fuel types, prices, and more.
 Example: 'Tell me about 2017 3 Series diesel.'
 ----------------------------------------
+USER: tor bmw drift mare
+BOT: This is a 2019 BMW  3 Series.
+- Price: $30495
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 8 miles
+- Tax: $145 per year
+- Fuel efficiency: 50.4 mpg
+
+[Match confidence: 0.25]
+TOP_MATCHES:
+  - 2019 bmw  3 Series Diesel Automatic 2.0 litre 8 miles (score=0.252)
+  - 2019 bmw  4 Series Diesel Semi-Auto 2.0 litre 9 miles (score=0.236)
+  - 2019 bmw  2 Series Diesel Semi-Auto 2.0 litre 9 miles (score=0.236)
+----------------------------------------
