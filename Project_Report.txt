@@ -11,16 +11,18 @@ Key goals:
 - Analyze user reviews for sentiment and readability.
 - Prevent invalid or irrelevant input from confusing the system.
 
+
 2. PROJECT STRUCTURE
+--------------------
 The workspace is organized as follows:
 
-- app.py: The entry point for the Streamlit web application. Handles UI rendering and session state.
-- BMW_Chatbot.py: The core logic module containing the `BMWChatbot` class, NLP processing, and intent handling.
-- bmw.csv: The structured dataset containing vehicle information.
-- requirements.txt: List of Python dependencies.
-- chat_log.txt: A log file recording user-bot interactions for debugging and analysis.
-- QNA_Example.md: A collection of test queries to verify bot functionality.
-- ReadMe.md: User documentation and installation instructions.
+- app.py: Streamlit web application entry point (UI, chat, sidebar, footer)
+- BMW_Chatbot.py: Core chatbot logic, NLP, intent handling
+- bmw.csv: Structured dataset of BMW vehicles
+- requirements.txt: Python dependencies
+- chat_log.txt: Log of all user-bot interactions
+- QNA_Example.md: Example/test queries
+- ReadMe.md: User documentation and installation instructions
 
 
 3. DATASET DETAILS
@@ -111,46 +113,42 @@ D. Readability Analysis
    - Example: "The BMW 3 Series is fast and comfortable." → Flesch score: 70.2
 
 
+
 6. KEY FEATURES IMPLEMENTED
 ---------------------------
 
-A. Budget & Recommendations
-   - The bot parses budget constraints (e.g., "under 20k", "my budget is 15000") and filters the dataframe (`df['price'] <= budget`).
-   - It employs a heuristic to recommend the "best" car within that budget, prioritizing newer models with lower mileage and, if possible, matching the user's preferred series or fuel type.
-   - Example: For "Recommend a 3 Series under 18k", the bot filters for 3 Series, price <= 18000, sorts by year and mileage, and returns the top result.
+- **Answers questions about BMW cars from bmw.csv using TF-IDF + cosine similarity.**
+- **Handles greetings, thanks, help, and exit intents.**
+- **Uses simple NLP to detect year and fuel type and filters the dataset accordingly.**
+- **Can answer aggregate questions:**
+    - "average price of 3 series 2017"
+    - "cheapest 5 series diesel"
+    - "most expensive 1 series"
+- **Logs all interactions to chat_log.txt**
+- **Has a special mode to analyze sentiment + readability of a text:**
+    - "analyze: <your review text>"
+- **Input Validation**: Detects invalid/gibberish input and prompts for clarification.
+- **Web Interface**: Clean, interactive chat UI using Streamlit (sidebar, chat, footer).
 
-B. Aggregate Queries
-   - The bot performs real-time statistical analysis on the dataframe using Pandas.
-   - Examples:
-     - "Average price of 2019 X5" → calculates mean price for all 2019 X5 entries.
-     - "Cheapest 5 Series diesel" → finds the row with the minimum price among 5 Series diesels.
-     - "Most expensive BMW" → finds the row with the maximum price.
-
-C. Input Validation
-   - A dedicated validator (`_is_valid_input`) checks user input against a whitelist of domain keywords, question words, and known entities. This prevents the bot from trying to process gibberish or irrelevant text.
-   - Example: If the user enters "asdfghjkl" or "potato", the bot responds: "That doesn't look like a valid question. Please ask something about BMW cars (e.g., 'price of X5', 'best car under 20k')."
-
-D. Logging & Debugging
-   - All user-bot interactions are logged to `chat_log.txt` for later analysis.
-   - Debug mode can be toggled to show the top 3 TF-IDF matches and their scores for transparency.
-
-E. Error Handling
-   - If the dataset is missing or a required library is not installed, the bot provides a clear error message.
-   - If a query cannot be answered, the bot suggests how to rephrase the question.
-
-F. Extensibility
-   - New intents (e.g., "compare two cars", "show all hybrids") can be added by extending the intent classifier and adding new handler methods.
-   - The system is designed to be brand-agnostic: swapping in a new CSV for another car brand requires only minor changes to entity extraction patterns.
 
 
 7. USER INTERFACE (STREAMLIT)
 -----------------------------
 The interface is built using Streamlit, a Python framework for data apps.
+- **Sidebar**: Shows logo, project name, and a feature list for user guidance.
 - **Session State**: Maintains the chat history (`st.session_state.messages`) so the conversation context is preserved during re-runs and page refreshes.
 - **Caching**: The chatbot instance and dataset loading are cached (`@st.cache_resource`) to ensure performance and prevent reloading the CSV on every interaction.
 - **Interactive Components**: Uses `st.chat_input` for user queries and `st.chat_message` to display the conversation flow in a chat-like format.
+- **Footer**: Credits and developer info.
 - **Error Display**: If the dataset is missing or the bot fails to initialize, a clear error message is shown in the UI.
 - **Modern UX**: The UI is styled for clarity and ease of use, with a persistent chat history and spinner for bot responses.
+10. REQUIREMENTS & INSTALLATION
+------------------------------
+- Python 3.8+
+- Install dependencies: `pip install -r requirements.txt`
+- Download spaCy model: `python -m spacy download en_core_web_sm`
+- Run the app: `streamlit run app.py`
+
 
 8. TESTING & VALIDATION
 -----------------------
