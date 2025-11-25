@@ -41,9 +41,9 @@ st.caption("Ask about BMW models, prices, specs, or get recommendations based on
 # Initialize the chatbot (cached to prevent reloading on every interaction)
 @st.cache_resource
 def get_chatbot():
-    csv_path = "bmw.csv"
+    csv_path = os.path.join("data", "bmw.csv")
     if not os.path.exists(csv_path):
-        st.error(f"Error: '{csv_path}' not found. Please make sure the dataset is in the same directory.")
+        st.error(f"Error: '{csv_path}' not found. Please make sure the dataset is in the 'data' directory.")
         return None
     try:
         bot = BMWChatbot(csv_path)

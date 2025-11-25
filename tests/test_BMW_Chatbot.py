@@ -1,10 +1,13 @@
-
 import pytest
+import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from BMW_Chatbot import BMWChatbot
 
 @pytest.fixture(scope="module")
 def bot():
-    return BMWChatbot("bmw.csv")
+    csv_path = os.path.join("data", "bmw.csv")
+    return BMWChatbot(csv_path)
 
 qna_examples = [
     # General Information / Car Details

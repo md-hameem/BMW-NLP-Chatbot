@@ -2074,3 +2074,906 @@ This is a 2017 BMW  3 Series.
 - Fuel efficiency: 148.7 mpg
 
 ----------------------------------------
+USER: Tell me about the 2017 BMW 3 Series diesel.
+BOT: This is a 2017 BMW  3 Series.
+- Price: $24950
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 3.0 L
+- Mileage: 5000 miles
+- Tax: $150 per year
+- Fuel efficiency: 51.4 mpg
+
+[Match confidence: 0.47]
+TOP_MATCHES:
+  - 2017 bmw  3 Series Diesel Automatic 3.0 litre 5000 miles (score=0.472)
+  - 2017 bmw  3 Series Diesel Automatic 3.0 litre 30000 miles (score=0.418)
+  - 2017 bmw  3 Series Diesel Automatic 2.0 litre 30000 miles (score=0.418)
+----------------------------------------
+USER: What is the price of a 2018 BMW X5?
+BOT: This is a 2018 BMW  X5.
+- Price: $36000
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 3.0 L
+- Mileage: 33000 miles
+- Tax: $150 per year
+- Fuel efficiency: 47.1 mpg
+
+[Match confidence: 0.56]
+TOP_MATCHES:
+  - 2018 bmw  X5 Diesel Automatic 3.0 litre 33000 miles (score=0.560)
+  - 2018 bmw  X5 Diesel Automatic 3.0 litre 29150 miles (score=0.498)
+  - 2018 bmw  X5 Diesel Semi-Auto 3.0 litre 5321 miles (score=0.493)
+----------------------------------------
+USER: Can you give me details about the 2020 BMW 5 Series petrol?
+BOT: This is a 2020 BMW  5 Series.
+- Price: $27990
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 2.0 L
+- Mileage: 9 miles
+- Tax: $150 per year
+- Fuel efficiency: 36.2 mpg
+
+[Match confidence: 0.84]
+TOP_MATCHES:
+  - 2020 bmw  5 Series Petrol Semi-Auto 2.0 litre 6 miles (score=0.840)
+  - 2020 bmw  5 Series Petrol Semi-Auto 2.0 litre 9 miles (score=0.840)
+  - 2020 bmw  5 Series Petrol Semi-Auto 2.0 litre 9 miles (score=0.840)
+----------------------------------------
+USER: How much mileage does the 2019 BMW 3 Series get?
+BOT: This is a 2019 BMW  3 Series.
+- Price: $30495
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 8 miles
+- Tax: $145 per year
+- Fuel efficiency: 50.4 mpg
+
+[Match confidence: 0.68]
+TOP_MATCHES:
+  - 2019 bmw  3 Series Diesel Automatic 2.0 litre 8 miles (score=0.679)
+  - 2019 bmw  3 Series Diesel Semi-Auto 2.0 litre 5 miles (score=0.634)
+  - 2019 bmw  3 Series Petrol Automatic 2.0 litre 5 miles (score=0.629)
+----------------------------------------
+USER: What’s the fuel type of the 2021 BMW M3?
+BOT: This is a 2016 BMW  M3.
+- Price: $33750
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 3.0 L
+- Mileage: 33000 miles
+- Tax: $300 per year
+- Fuel efficiency: 34.0 mpg
+
+[Match confidence: 0.62]
+TOP_MATCHES:
+  - 2016 bmw  M3 Petrol Semi-Auto 3.0 litre 33000 miles (score=0.619)
+  - 2015 bmw  M3 Petrol Automatic 3.0 litre 42000 miles (score=0.609)
+  - 2015 bmw  M3 Petrol Semi-Auto 3.0 litre 41500 miles (score=0.574)
+----------------------------------------
+USER: Tell me about the 2022 BMW X3 with automatic transmission.
+BOT: This is a 2019 BMW  X3.
+- Price: $38020
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 123 miles
+- Tax: $145 per year
+- Fuel efficiency: 54.3 mpg
+
+[Match confidence: 0.61]
+TOP_MATCHES:
+  - 2019 bmw  X3 Diesel Automatic 2.0 litre 123 miles (score=0.607)
+  - 2019 bmw  X3 Diesel Automatic 2.0 litre 123 miles (score=0.607)
+  - 2019 bmw  X3 Diesel Automatic 2.0 litre 123 miles (score=0.607)
+----------------------------------------
+USER: What engine size does the 2020 BMW 7 Series have?
+BOT: This is a 2020 BMW  7 Series.
+- Price: $52999
+- Transmission: Semi-Auto
+- Fuel type: Diesel
+- Engine size: 3.0 L
+- Mileage: 5000 miles
+- Tax: $145 per year
+- Fuel efficiency: 42.2 mpg
+
+[Match confidence: 0.50]
+TOP_MATCHES:
+  - 2020 bmw  7 Series Diesel Semi-Auto 3.0 litre 5000 miles (score=0.500)
+  - 2020 bmw  7 Series Diesel Semi-Auto 3.0 litre 1501 miles (score=0.498)
+  - 2020 bmw  7 Series Diesel Semi-Auto 3.0 litre 3500 miles (score=0.439)
+----------------------------------------
+USER: How much tax is required for a 2021 BMW 4 Series?
+BOT: This is a 2019 BMW  3 Series.
+- Price: $30495
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 8 miles
+- Tax: $145 per year
+- Fuel efficiency: 50.4 mpg
+
+[Match confidence: 0.42]
+TOP_MATCHES:
+  - 2019 bmw  3 Series Diesel Automatic 2.0 litre 8 miles (score=0.415)
+  - 2019 bmw  2 Series Diesel Semi-Auto 2.0 litre 9 miles (score=0.387)
+  - 2019 bmw  3 Series Diesel Semi-Auto 2.0 litre 5 miles (score=0.387)
+----------------------------------------
+USER: What is the transmission type for the 2018 BMW M4?
+BOT: This is a 2018 BMW  M4.
+- Price: $55991
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 3.0 L
+- Mileage: 4000 miles
+- Tax: $145 per year
+- Fuel efficiency: 33.6 mpg
+
+[Match confidence: 0.63]
+TOP_MATCHES:
+  - 2018 bmw  M4 Petrol Semi-Auto 3.0 litre 4000 miles (score=0.625)
+  - 2018 bmw  M4 Petrol Automatic 3.0 litre 16000 miles (score=0.596)
+  - 2018 bmw  M4 Petrol Automatic 3.0 litre 9210 miles (score=0.569)
+----------------------------------------
+USER: Can you tell me about the fuel efficiency of the 2017 BMW 2 Series?
+BOT: This is a 2017 BMW  2 Series.
+- Price: $21990
+- Transmission: Manual
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 10 miles
+- Tax: $145 per year
+- Fuel efficiency: 64.2 mpg
+
+[Match confidence: 0.47]
+TOP_MATCHES:
+  - 2017 bmw  2 Series Diesel Manual 2.0 litre 10 miles (score=0.470)
+  - 2017 bmw  2 Series Petrol Semi-Auto 1.5 litre 10 miles (score=0.455)
+  - 2017 bmw  2 Series Petrol Semi-Auto 1.5 litre 5000 miles (score=0.415)
+----------------------------------------
+USER: What is the price of a 2020 BMW 3 Series?
+BOT: This is a 2020 BMW  3 Series.
+- Price: $24490
+- Transmission: Manual
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 5 miles
+- Tax: $145 per year
+- Fuel efficiency: 56.5 mpg
+
+[Match confidence: 0.79]
+TOP_MATCHES:
+  - 2020 bmw  3 Series Diesel Manual 2.0 litre 5 miles (score=0.787)
+  - 2020 bmw  3 Series Diesel Manual 2.0 litre 5 miles (score=0.787)
+  - 2020 bmw  3 Series Diesel Manual 2.0 litre 4 miles (score=0.787)
+----------------------------------------
+USER: How much is a 2019 BMW X6 in the UK?
+BOT: This is a 2019 BMW  X6.
+- Price: $58480
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 3.0 L
+- Mileage: 2018 miles
+- Tax: $145 per year
+- Fuel efficiency: 26.4 mpg
+
+[Match confidence: 0.77]
+TOP_MATCHES:
+  - 2019 bmw  X6 Petrol Semi-Auto 3.0 litre 2018 miles (score=0.767)
+  - 2019 bmw  X6 Diesel Semi-Auto 3.0 litre 101 miles (score=0.670)
+  - 2019 bmw  X6 Diesel Semi-Auto 3.0 litre 1000 miles (score=0.663)
+----------------------------------------
+USER: What’s the most expensive BMW available in 2021?
+BOT: I couldn't find matching cars to determine the most expensive one.
+----------------------------------------
+USER: Can you give me the average price of the BMW 5 Series 2020?
+BOT: Based on 65 matching BMW cars, the average price is approximately $33,138.
+----------------------------------------
+USER: How much does a 2022 BMW 4 Series cost in the market?
+BOT: This is a 2019 BMW  3 Series.
+- Price: $30495
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 8 miles
+- Tax: $145 per year
+- Fuel efficiency: 50.4 mpg
+
+[Match confidence: 0.42]
+TOP_MATCHES:
+  - 2019 bmw  3 Series Diesel Automatic 2.0 litre 8 miles (score=0.415)
+  - 2019 bmw  2 Series Diesel Semi-Auto 2.0 litre 9 miles (score=0.387)
+  - 2019 bmw  3 Series Diesel Semi-Auto 2.0 litre 5 miles (score=0.387)
+----------------------------------------
+USER: What type of fuel does the 2019 BMW 3 Series use?
+BOT: This is a 2019 BMW  3 Series.
+- Price: $30495
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 8 miles
+- Tax: $145 per year
+- Fuel efficiency: 50.4 mpg
+
+[Match confidence: 0.68]
+TOP_MATCHES:
+  - 2019 bmw  3 Series Diesel Automatic 2.0 litre 8 miles (score=0.679)
+  - 2019 bmw  3 Series Diesel Semi-Auto 2.0 litre 5 miles (score=0.634)
+  - 2019 bmw  3 Series Petrol Automatic 2.0 litre 5 miles (score=0.629)
+----------------------------------------
+USER: Is the 2020 BMW X5 hybrid or petrol?
+BOT: This is a 2020 BMW  2 Series.
+- Price: $20980
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 1.5 L
+- Mileage: 9 miles
+- Tax: $145 per year
+- Fuel efficiency: 50.4 mpg
+
+[Match confidence: 0.47]
+TOP_MATCHES:
+  - 2020 bmw  5 Series Petrol Semi-Auto 2.0 litre 6 miles (score=0.466)
+  - 2020 bmw  2 Series Petrol Semi-Auto 1.5 litre 9 miles (score=0.466)
+  - 2020 bmw  2 Series Petrol Semi-Auto 1.5 litre 7 miles (score=0.466)
+----------------------------------------
+USER: Does the 2021 BMW 4 Series come in diesel?
+BOT: This is a 2019 BMW  3 Series.
+- Price: $30495
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 8 miles
+- Tax: $145 per year
+- Fuel efficiency: 50.4 mpg
+
+[Match confidence: 0.55]
+TOP_MATCHES:
+  - 2019 bmw  3 Series Diesel Automatic 2.0 litre 8 miles (score=0.550)
+  - 2019 bmw  3 Series Diesel Semi-Auto 2.0 litre 5 miles (score=0.513)
+  - 2019 bmw  5 Series Diesel Semi-Auto 2.0 litre 6 miles (score=0.513)
+----------------------------------------
+USER: What transmission does the 2018 BMW 7 Series have?
+BOT: This is a 2018 BMW  7 Series.
+- Price: $42000
+- Transmission: Semi-Auto
+- Fuel type: Diesel
+- Engine size: 3.0 L
+- Mileage: 7123 miles
+- Tax: $145 per year
+- Fuel efficiency: 52.3 mpg
+
+[Match confidence: 0.36]
+TOP_MATCHES:
+  - 2018 bmw  7 Series Diesel Semi-Auto 3.0 litre 39196 miles (score=0.359)
+  - 2018 bmw  7 Series Diesel Semi-Auto 3.0 litre 7123 miles (score=0.359)
+  - 2018 bmw  7 Series Petrol Semi-Auto 4.4 litre 17192 miles (score=0.355)
+----------------------------------------
+USER: Is the 2020 BMW M4 automatic or manual?
+BOT: This is a 2020 BMW  M4.
+- Price: $45990
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 3.0 L
+- Mileage: 6 miles
+- Tax: $145 per year
+- Fuel efficiency: 34.0 mpg
+
+[Match confidence: 0.79]
+TOP_MATCHES:
+  - 2020 bmw  M4 Petrol Semi-Auto 3.0 litre 6 miles (score=0.789)
+  - 2020 bmw  M4 Petrol Semi-Auto 3.0 litre 5 miles (score=0.789)
+  - 2020 bmw  M4 Petrol Semi-Auto 3.0 litre 7 miles (score=0.789)
+----------------------------------------
+USER: Tell me about the 2016 BMW 5 Series.
+BOT: This is a 2016 BMW  5 Series.
+- Price: $14490
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 50000 miles
+- Tax: $30 per year
+- Fuel efficiency: 62.8 mpg
+
+[Match confidence: 0.37]
+TOP_MATCHES:
+  - 2016 bmw  5 Series Diesel Automatic 2.0 litre 50000 miles (score=0.374)
+  - 2016 bmw  5 Series Diesel Automatic 2.0 litre 59000 miles (score=0.364)
+  - 2016 bmw  5 Series Diesel Semi-Auto 2.0 litre 43000 miles (score=0.359)
+----------------------------------------
+USER: What are the details of the 2022 BMW 3 Series?
+BOT: This is a 2019 BMW  3 Series.
+- Price: $30495
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 8 miles
+- Tax: $145 per year
+- Fuel efficiency: 50.4 mpg
+
+[Match confidence: 0.42]
+TOP_MATCHES:
+  - 2019 bmw  3 Series Diesel Automatic 2.0 litre 8 miles (score=0.415)
+  - 2019 bmw  2 Series Diesel Semi-Auto 2.0 litre 9 miles (score=0.387)
+  - 2019 bmw  3 Series Diesel Semi-Auto 2.0 litre 5 miles (score=0.387)
+----------------------------------------
+USER: What year was the BMW 3 Series with the lowest price?
+BOT: Here is the cheapest matching BMW:
+This is a 1999 BMW  3 Series.
+- Price: $1200
+- Transmission: Automatic
+- Fuel type: Petrol
+- Engine size: 2.8 L
+- Mileage: 82000 miles
+- Tax: $245 per year
+- Fuel efficiency: 31.0 mpg
+
+----------------------------------------
+USER: How does the 2020 BMW M5 compare to the 2021 model?
+BOT: This is a 2020 BMW  3 Series.
+- Price: $24490
+- Transmission: Manual
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 5 miles
+- Tax: $145 per year
+- Fuel efficiency: 56.5 mpg
+
+[Match confidence: 0.36]
+TOP_MATCHES:
+  - 2020 bmw  3 Series Diesel Manual 2.0 litre 5 miles (score=0.361)
+  - 2020 bmw  3 Series Diesel Manual 2.0 litre 4 miles (score=0.361)
+  - 2020 bmw  3 Series Diesel Manual 2.0 litre 5 miles (score=0.361)
+----------------------------------------
+USER: Is there any difference between the 2018 and 2020 BMW X1?
+BOT: This is a 2020 BMW  X1.
+- Price: $29000
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 2.0 L
+- Mileage: 9 miles
+- Tax: $150 per year
+- Fuel efficiency: 47.9 mpg
+
+[Match confidence: 0.68]
+TOP_MATCHES:
+  - 2020 bmw  X1 Petrol Semi-Auto 2.0 litre 9 miles (score=0.680)
+  - 2020 bmw  X1 Diesel Semi-Auto 2.0 litre 10 miles (score=0.535)
+  - 2020 bmw  X1 Diesel Automatic 2.0 litre 1000 miles (score=0.511)
+----------------------------------------
+USER: How many miles does the 2017 BMW 3 Series have?
+BOT: This is a 2017 BMW  3 Series.
+- Price: $24950
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 3.0 L
+- Mileage: 5000 miles
+- Tax: $150 per year
+- Fuel efficiency: 51.4 mpg
+
+[Match confidence: 0.45]
+TOP_MATCHES:
+  - 2017 bmw  3 Series Diesel Automatic 3.0 litre 5000 miles (score=0.453)
+  - 2017 bmw  3 Series Diesel Automatic 2.0 litre 30000 miles (score=0.401)
+  - 2017 bmw  3 Series Diesel Automatic 3.0 litre 30000 miles (score=0.401)
+----------------------------------------
+USER: What is the mileage of the 2020 BMW 5 Series diesel?
+BOT: This is a 2020 BMW  5 Series.
+- Price: $36990
+- Transmission: Semi-Auto
+- Fuel type: Diesel
+- Engine size: 3.0 L
+- Mileage: 10 miles
+- Tax: $145 per year
+- Fuel efficiency: 60.1 mpg
+
+[Match confidence: 0.58]
+TOP_MATCHES:
+  - 2020 bmw  5 Series Diesel Semi-Auto 3.0 litre 10 miles (score=0.578)
+  - 2020 bmw  5 Series Diesel Automatic 2.0 litre 101 miles (score=0.555)
+  - 2020 bmw  5 Series Diesel Automatic 3.0 litre 101 miles (score=0.555)
+----------------------------------------
+USER: How fuel-efficient is the 2021 BMW M3?
+BOT: This is a 2016 BMW  M3.
+- Price: $33750
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 3.0 L
+- Mileage: 33000 miles
+- Tax: $300 per year
+- Fuel efficiency: 34.0 mpg
+
+[Match confidence: 0.62]
+TOP_MATCHES:
+  - 2016 bmw  M3 Petrol Semi-Auto 3.0 litre 33000 miles (score=0.619)
+  - 2015 bmw  M3 Petrol Automatic 3.0 litre 42000 miles (score=0.609)
+  - 2015 bmw  M3 Petrol Semi-Auto 3.0 litre 41500 miles (score=0.574)
+----------------------------------------
+USER: How many miles can the 2019 BMW X5 drive on a full tank?
+BOT: This is a 2019 BMW  X5.
+- Price: $73000
+- Transmission: Automatic
+- Fuel type: Hybrid
+- Engine size: 3.0 L
+- Mileage: 5 miles
+- Tax: $135 per year
+- Fuel efficiency: 188.3 mpg
+
+[Match confidence: 0.69]
+TOP_MATCHES:
+  - 2019 bmw  X5 Hybrid Automatic 3.0 litre 5 miles (score=0.687)
+  - 2019 bmw  X5 Diesel Automatic 3.0 litre 123 miles (score=0.634)
+  - 2019 bmw  X5 Diesel Automatic 3.0 litre 123 miles (score=0.634)
+----------------------------------------
+USER: What’s the top speed of the 2021 BMW 4 Series?
+BOT: This is a 2019 BMW  3 Series.
+- Price: $30495
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 8 miles
+- Tax: $145 per year
+- Fuel efficiency: 50.4 mpg
+
+[Match confidence: 0.42]
+TOP_MATCHES:
+  - 2019 bmw  3 Series Diesel Automatic 2.0 litre 8 miles (score=0.415)
+  - 2019 bmw  2 Series Diesel Semi-Auto 2.0 litre 9 miles (score=0.387)
+  - 2019 bmw  3 Series Diesel Semi-Auto 2.0 litre 5 miles (score=0.387)
+----------------------------------------
+USER: What’s the difference between the 3 Series and 4 Series?
+BOT: This is a 2019 BMW  3 Series.
+- Price: $30495
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 8 miles
+- Tax: $145 per year
+- Fuel efficiency: 50.4 mpg
+
+[Match confidence: 0.33]
+TOP_MATCHES:
+  - 2019 bmw  3 Series Diesel Automatic 2.0 litre 8 miles (score=0.330)
+  - 2019 bmw  3 Series Diesel Semi-Auto 2.0 litre 5 miles (score=0.307)
+  - 2019 bmw  3 Series Petrol Automatic 2.0 litre 5 miles (score=0.305)
+----------------------------------------
+USER: How does the 1 Series compare to the 2 Series in terms of fuel economy?
+BOT: This is a 2020 BMW  1 Series.
+- Price: $32995
+- Transmission: Semi-Auto
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 5 miles
+- Tax: $145 per year
+- Fuel efficiency: 48.7 mpg
+
+[Match confidence: 0.25]
+TOP_MATCHES:
+  - 2020 bmw  1 Series Diesel Semi-Auto 2.0 litre 5 miles (score=0.251)
+  - 2020 bmw  1 Series Petrol Semi-Auto 1.5 litre 5 miles (score=0.240)
+  - 2019 bmw  1 Series Diesel Automatic 2.0 litre 123 miles (score=0.198)
+----------------------------------------
+USER: Tell me about the BMW 5 Series vs the BMW 7 Series.
+BOT: This is a 2019 BMW  5 Series.
+- Price: $28380
+- Transmission: Semi-Auto
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 6 miles
+- Tax: $145 per year
+- Fuel efficiency: 65.7 mpg
+
+[Match confidence: 0.39]
+TOP_MATCHES:
+  - 2019 bmw  5 Series Diesel Semi-Auto 2.0 litre 6 miles (score=0.387)
+  - 2020 bmw  5 Series Petrol Semi-Auto 2.0 litre 9 miles (score=0.302)
+  - 2020 bmw  5 Series Petrol Semi-Auto 2.0 litre 6 miles (score=0.302)
+----------------------------------------
+USER: What makes the BMW X3 different from the BMW X5?
+BOT: This is a 2019 BMW  X5.
+- Price: $73000
+- Transmission: Automatic
+- Fuel type: Hybrid
+- Engine size: 3.0 L
+- Mileage: 5 miles
+- Tax: $135 per year
+- Fuel efficiency: 188.3 mpg
+
+[Match confidence: 0.44]
+TOP_MATCHES:
+  - 2019 bmw  X5 Hybrid Automatic 3.0 litre 5 miles (score=0.444)
+  - 2019 bmw  X5 Diesel Automatic 3.0 litre 123 miles (score=0.410)
+  - 2019 bmw  X5 Diesel Automatic 3.0 litre 123 miles (score=0.410)
+----------------------------------------
+USER: What are the features of the 2020 BMW 6 Series?
+BOT: This is a 2020 BMW  6 Series.
+- Price: $36850
+- Transmission: Semi-Auto
+- Fuel type: Diesel
+- Engine size: 3.0 L
+- Mileage: 6 miles
+- Tax: $145 per year
+- Fuel efficiency: 53.3 mpg
+
+[Match confidence: 0.78]
+TOP_MATCHES:
+  - 2020 bmw  6 Series Diesel Semi-Auto 3.0 litre 6 miles (score=0.776)
+  - 2020 bmw  6 Series Petrol Semi-Auto 2.0 litre 5 miles (score=0.741)
+  - 2020 bmw  6 Series Petrol Semi-Auto 2.0 litre 6 miles (score=0.741)
+----------------------------------------
+USER: What’s the cheapest 2019 BMW 3 Series available?
+BOT: Here is the cheapest matching BMW:
+This is a 2019 BMW  3 Series.
+- Price: $16698
+- Transmission: Manual
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 12824 miles
+- Tax: $150 per year
+- Fuel efficiency: 67.3 mpg
+
+----------------------------------------
+USER: Tell me the average price of the 2018 BMW 5 Series.
+BOT: Based on 81 matching BMW cars, the average price is approximately $25,917.
+----------------------------------------
+USER: Which is the most expensive BMW 7 Series in 2021?
+BOT: I couldn't find matching cars to determine the most expensive one.
+----------------------------------------
+USER: What’s the least expensive BMW X1 available in 2020?
+BOT: Here is the cheapest matching BMW:
+This is a 2020 BMW  1 Series.
+- Price: $11995
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 2.0 L
+- Mileage: 10 miles
+- Tax: $150 per year
+- Fuel efficiency: 34.5 mpg
+
+----------------------------------------
+USER: What’s the highest price for a 2019 BMW X6?
+BOT: Here is the most expensive matching BMW:
+This is a 2019 BMW  M5.
+- Price: $89900
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 4.4 L
+- Mileage: 2269 miles
+- Tax: $145 per year
+- Fuel efficiency: 24.1 mpg
+
+----------------------------------------
+USER: What is the engine size of the 2020 BMW M5?
+BOT: This is a 2020 BMW  3 Series.
+- Price: $24490
+- Transmission: Manual
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 5 miles
+- Tax: $145 per year
+- Fuel efficiency: 56.5 mpg
+
+[Match confidence: 0.36]
+TOP_MATCHES:
+  - 2020 bmw  3 Series Diesel Manual 2.0 litre 5 miles (score=0.361)
+  - 2020 bmw  3 Series Diesel Manual 2.0 litre 4 miles (score=0.361)
+  - 2020 bmw  3 Series Diesel Manual 2.0 litre 5 miles (score=0.361)
+----------------------------------------
+USER: Does the 2021 BMW X7 come with a hybrid engine?
+BOT: This is a 2019 BMW  X7.
+- Price: $67120
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 3.0 L
+- Mileage: 10 miles
+- Tax: $145 per year
+- Fuel efficiency: 33.6 mpg
+
+[Match confidence: 0.57]
+TOP_MATCHES:
+  - 2019 bmw  X7 Diesel Automatic 3.0 litre 10 miles (score=0.571)
+  - 2019 bmw  X7 Diesel Semi-Auto 3.0 litre 10 miles (score=0.563)
+  - 2019 bmw  X7 Diesel Semi-Auto 3.0 litre 5000 miles (score=0.531)
+----------------------------------------
+USER: What color options are available for the 2019 BMW 3 Series?
+BOT: This is a 2019 BMW  3 Series.
+- Price: $30495
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 8 miles
+- Tax: $145 per year
+- Fuel efficiency: 50.4 mpg
+
+[Match confidence: 0.68]
+TOP_MATCHES:
+  - 2019 bmw  3 Series Diesel Automatic 2.0 litre 8 miles (score=0.679)
+  - 2019 bmw  3 Series Diesel Semi-Auto 2.0 litre 5 miles (score=0.634)
+  - 2019 bmw  3 Series Petrol Automatic 2.0 litre 5 miles (score=0.629)
+----------------------------------------
+USER: Does the 2017 BMW 3 Series have a sunroof?
+BOT: This is a 2017 BMW  3 Series.
+- Price: $24950
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 3.0 L
+- Mileage: 5000 miles
+- Tax: $150 per year
+- Fuel efficiency: 51.4 mpg
+
+[Match confidence: 0.43]
+TOP_MATCHES:
+  - 2017 bmw  3 Series Diesel Automatic 3.0 litre 5000 miles (score=0.433)
+  - 2017 bmw  3 Series Diesel Automatic 2.0 litre 30000 miles (score=0.383)
+  - 2017 bmw  3 Series Diesel Automatic 3.0 litre 30000 miles (score=0.383)
+----------------------------------------
+USER: What’s the safety rating of the 2021 BMW M4?
+BOT: This is a 2020 BMW  M4.
+- Price: $45990
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 3.0 L
+- Mileage: 6 miles
+- Tax: $145 per year
+- Fuel efficiency: 34.0 mpg
+
+[Match confidence: 0.73]
+TOP_MATCHES:
+  - 2020 bmw  M4 Petrol Semi-Auto 3.0 litre 7 miles (score=0.730)
+  - 2020 bmw  M4 Petrol Semi-Auto 3.0 litre 6 miles (score=0.730)
+  - 2020 bmw  M4 Petrol Semi-Auto 3.0 litre 5 miles (score=0.730)
+----------------------------------------
+USER: Can you analyze this review: 'This BMW 3 Series is excellent. It has great mileage but is a bit expensive.'
+BOT: Here is the analysis of your text:
+
+- Sentiment polarity (−1=negative, +1=positive): 0.433
+- Subjectivity (0=objective, 1=subjective): 0.817
+
+Readability estimates:
+- flesch_score: 92.06
+----------------------------------------
+USER: What is the sentiment of the review: 'The BMW 7 Series is fantastic but has high running costs.'
+BOT: This is a 2019 BMW  7 Series.
+- Price: $49990
+- Transmission: Automatic
+- Fuel type: Diesel
+- Engine size: 3.0 L
+- Mileage: 123 miles
+- Tax: $145 per year
+- Fuel efficiency: 44.8 mpg
+
+[Match confidence: 0.25]
+TOP_MATCHES:
+  - 2019 bmw  7 Series Diesel Automatic 3.0 litre 123 miles (score=0.250)
+  - 2019 bmw  7 Series Diesel Semi-Auto 3.0 litre 101 miles (score=0.226)
+  - 2019 bmw  7 Series Diesel Semi-Auto 3.0 litre 1501 miles (score=0.219)
+----------------------------------------
+USER: Analyze the following review: 'The BMW X5 is an excellent family car, but its fuel economy could be better.'
+BOT: This is a 2019 BMW  X5.
+- Price: $73000
+- Transmission: Automatic
+- Fuel type: Hybrid
+- Engine size: 3.0 L
+- Mileage: 5 miles
+- Tax: $135 per year
+- Fuel efficiency: 188.3 mpg
+
+[Match confidence: 0.60]
+TOP_MATCHES:
+  - 2019 bmw  X5 Hybrid Automatic 3.0 litre 5 miles (score=0.601)
+  - 2019 bmw  X5 Diesel Automatic 3.0 litre 123 miles (score=0.555)
+  - 2019 bmw  X5 Diesel Automatic 3.0 litre 123 miles (score=0.555)
+----------------------------------------
+USER: What is the sentiment of: 'I love my 2020 BMW 5 Series! It’s fast and luxurious!'
+BOT: This is a 2020 BMW  5 Series.
+- Price: $27990
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 2.0 L
+- Mileage: 9 miles
+- Tax: $150 per year
+- Fuel efficiency: 36.2 mpg
+
+[Match confidence: 0.74]
+TOP_MATCHES:
+  - 2020 bmw  5 Series Petrol Semi-Auto 2.0 litre 6 miles (score=0.741)
+  - 2020 bmw  5 Series Petrol Semi-Auto 2.0 litre 9 miles (score=0.741)
+  - 2020 bmw  5 Series Petrol Semi-Auto 2.0 litre 9 miles (score=0.741)
+----------------------------------------
+USER: Can you tell me the readability of this review: 'The 2018 BMW 3 Series is fast, has great comfort features, and performs well on highways.'
+BOT: Here is the analysis of your text:
+
+- Sentiment polarity (−1=negative, +1=positive): 0.500
+- Subjectivity (0=objective, 1=subjective): 0.675
+
+Readability estimates:
+- flesch_score: 73.17
+----------------------------------------
+USER: My budget is 15000.
+BOT: I found 2869 cars within your budget of $15,000.
+Here is the best option (newest with low mileage):
+This is a 2020 BMW  1 Series.
+- Price: $11995
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 2.0 L
+- Mileage: 10 miles
+- Tax: $150 per year
+- Fuel efficiency: 34.5 mpg
+
+----------------------------------------
+USER: Recommend a car under 20k.
+BOT: I found 5323 cars within your budget of $20,000.
+Here is the best option (newest with low mileage):
+This is a 2020 BMW  1 Series.
+- Price: $11995
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 2.0 L
+- Mileage: 10 miles
+- Tax: $150 per year
+- Fuel efficiency: 34.5 mpg
+
+----------------------------------------
+USER: I have a budget of $12,000 for a 1 Series.
+BOT: I found 621 cars within your budget of $12,000.
+Here is the best option (newest with low mileage):
+This is a 2020 BMW  1 Series.
+- Price: $11995
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 2.0 L
+- Mileage: 10 miles
+- Tax: $150 per year
+- Fuel efficiency: 34.5 mpg
+
+----------------------------------------
+USER: Show me cars less than 18000.
+BOT: I found 4361 cars within your budget of $18,000.
+Here is the best option (newest with low mileage):
+This is a 2020 BMW  1 Series.
+- Price: $11995
+- Transmission: Semi-Auto
+- Fuel type: Petrol
+- Engine size: 2.0 L
+- Mileage: 10 miles
+- Tax: $150 per year
+- Fuel efficiency: 34.5 mpg
+
+----------------------------------------
+USER: Which car is best?
+BOT: Defining 'best' depends on what you need. Here are my top recommendations:
+
+--- Option 1: The Newest Model ---
+This is a 2020 BMW  X1.
+- Price: $31498
+- Transmission: Semi-Auto
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 1560 miles
+- Tax: $145 per year
+- Fuel efficiency: 60.1 mpg
+
+--- Option 2: Most Fuel Efficient (Highest MPG) ---
+This is a 2016 BMW  i3.
+- Price: $17100
+- Transmission: Automatic
+- Fuel type: Other
+- Engine size: 0.6 L
+- Mileage: 25269 miles
+- Tax: $0 per year
+- Fuel efficiency: 470.8 mpg
+
+----------------------------------------
+USER: Recommend me a BMW.
+BOT: Defining 'best' depends on what you need. Here are my top recommendations:
+
+--- Option 1: The Newest Model ---
+This is a 2020 BMW  X1.
+- Price: $31498
+- Transmission: Semi-Auto
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 1560 miles
+- Tax: $145 per year
+- Fuel efficiency: 60.1 mpg
+
+--- Option 2: Most Fuel Efficient (Highest MPG) ---
+This is a 2016 BMW  i3.
+- Price: $17100
+- Transmission: Automatic
+- Fuel type: Other
+- Engine size: 0.6 L
+- Mileage: 25269 miles
+- Tax: $0 per year
+- Fuel efficiency: 470.8 mpg
+
+----------------------------------------
+USER: What do you suggest for a 5 Series?
+BOT: Defining 'best' depends on what you need. Here are my top recommendations:
+
+--- Option 1: The Newest Model ---
+This is a 2020 BMW  5 Series.
+- Price: $27090
+- Transmission: Semi-Auto
+- Fuel type: Hybrid
+- Engine size: 2.0 L
+- Mileage: 3168 miles
+- Tax: $145 per year
+- Fuel efficiency: 49.6 mpg
+
+--- Option 2: Most Fuel Efficient (Highest MPG) ---
+This is a 2018 BMW  5 Series.
+- Price: $27498
+- Transmission: Semi-Auto
+- Fuel type: Hybrid
+- Engine size: 2.0 L
+- Mileage: 13197 miles
+- Tax: $140 per year
+- Fuel efficiency: 156.9 mpg
+
+----------------------------------------
+USER: Best car under 25k.
+BOT: I found 7277 cars within your budget of $25,000.
+Here is the best option (newest with low mileage):
+This is a 2020 BMW  X2.
+- Price: $24490
+- Transmission: Semi-Auto
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 1 miles
+- Tax: $145 per year
+- Fuel efficiency: 52.3 mpg
+
+----------------------------------------
+USER: Suggest a cheap diesel car.
+BOT: Defining 'best' depends on what you need. Here are my top recommendations:
+
+--- Option 1: The Newest Model ---
+This is a 2020 BMW  X1.
+- Price: $31498
+- Transmission: Semi-Auto
+- Fuel type: Diesel
+- Engine size: 2.0 L
+- Mileage: 1560 miles
+- Tax: $145 per year
+- Fuel efficiency: 60.1 mpg
+
+--- Option 2: Most Fuel Efficient (Highest MPG) ---
+This is a 2016 BMW  1 Series.
+- Price: $9400
+- Transmission: Manual
+- Fuel type: Diesel
+- Engine size: 1.5 L
+- Mileage: 44498 miles
+- Tax: $0 per year
+- Fuel efficiency: 83.1 mpg
+
+----------------------------------------
+USER: What is the best 3 Series you have?
+BOT: Defining 'best' depends on what you need. Here are my top recommendations:
+
+--- Option 1: The Newest Model ---
+This is a 2020 BMW  3 Series.
+- Price: $51000
+- Transmission: Semi-Auto
+- Fuel type: Diesel
+- Engine size: 3.0 L
+- Mileage: 5000 miles
+- Tax: $150 per year
+- Fuel efficiency: 43.5 mpg
+
+--- Option 2: Most Fuel Efficient (Highest MPG) ---
+This is a 2017 BMW  3 Series.
+- Price: $14250
+- Transmission: Automatic
+- Fuel type: Other
+- Engine size: 2.0 L
+- Mileage: 55594 miles
+- Tax: $135 per year
+- Fuel efficiency: 148.7 mpg
+
+----------------------------------------

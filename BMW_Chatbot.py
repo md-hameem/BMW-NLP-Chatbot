@@ -15,8 +15,14 @@ Features:
     - "analyze: <your review text>"
 """
 
+import os
+
+
+
+
 import re
 import sys
+import os
 from dataclasses import dataclass
 from typing import List, Optional, Tuple, Dict
 
@@ -558,9 +564,10 @@ class BMWChatbot:
         reply: str,
         top_matches: Optional[List[Tuple[QAPair, float]]] = None,
     ) -> None:
-        """Append a simple log line to chat_log.txt."""
+        """Append a simple log line to logs/chat_log.txt."""
+        log_path = os.path.join("logs", "chat_log.txt")
         try:
-            with open("chat_log.txt", "a", encoding="utf-8") as f:
+            with open(log_path, "a", encoding="utf-8") as f:
                 f.write("USER: " + user_query + "\n")
                 f.write("BOT: " + reply + "\n")
                 if top_matches:

@@ -73,19 +73,41 @@ Once the chatbot is running, try asking:
 ### 📝 Text Analysis
 * "Analyze: This BMW 3 Series is fast and smooth but a bit expensive."
 
+
 ## Project Structure
 
 ```
-/bmw-chatbot
+BMW-NLP-Chatbot/
 │
-├── app.py                    # Streamlit web application entry point
-├── BMW_Chatbot.py            # Core chatbot logic and NLP processing
-├── bmw.csv                   # Dataset containing car information
-├── requirements.txt          # Python dependencies
-├── QNA_Example.md            # List of example questions for testing
-├── chat_log.txt              # Log of all user-bot interactions
-└── README.md                 # Project documentation
+├── app.py                      # Streamlit web application entry point
+├── BMW_Chatbot.py              # Core chatbot logic and NLP processing
+├── requirements.txt            # Python dependencies
+├── ReadMe.md                   # Project documentation
+│
+├── data/
+│   └── bmw.csv                 # Dataset containing car information
+│
+├── logs/
+│   └── chat_log.txt            # Log of all user-bot interactions
+│
+├── examples/
+│   └── QNA_Example.md          # List of example questions for testing
+│
+├── tests/
+│   ├── test_BMW_Chatbot.py     # Pytest test suite (60+ test cases)
+│   └── pytest_results.txt      # Saved pytest results
+└── ...
 ```
+
+## Running Tests
+
+To run the test suite (60+ test cases, covering all major features):
+
+```bash
+pytest tests/test_BMW_Chatbot.py > tests/pytest_results.txt
+```
+All tests should pass. Results are saved in `tests/pytest_results.txt`.
+
 
 
 ## How It Works
