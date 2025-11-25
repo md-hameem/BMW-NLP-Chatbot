@@ -15,8 +15,10 @@ venv/
 /.pnp
 .pnp.js
 
+
 # testing
 /coverage
+.pytest_cache/
 
 # production
 /build
